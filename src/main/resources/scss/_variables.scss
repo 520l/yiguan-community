@@ -1,0 +1,107 @@
+/*
+ * Rhythm - A modern community (forum/BBS/SNS/blog) platform written in Java.
+ * Modified version from Symphony, Thanks Symphony :)
+ * Copyright (C) 2012-present, b3log.org
+ *
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU Affero General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU Affero General Public License for more details.
+ *
+ * You should have received a copy of the GNU Affero General Public License
+ * along with this program.  If not, see <https://www.gnu.org/licenses/>.
+ */
+/**
+ * variables.
+ *
+ * @author <a href="http://vanessa.b3log.org">Liyuan Li</a>
+ * @version 1.5.0.2, Mar 7, 2017
+ */
+
+/**
+z-index rule
+footer 40~59
+article-toc 79
+article-editor-preview 81
+add article tag tip 82
+header 83
+heatBar 84
+go-top 110
+img-preview 111
+article-editor 120~121
+editor-fullscreen 122
+editor-hints 123
+editor-toolbar-emoji 124
+dialog 200~209
+*/
+
+// Table of Contents
+// Colors
+$blue: #4285f4 !default;
+$blue-light: #dbedff !default;
+$blue-lighter: #f1f7fe !default;
+$red: #d23f31 !default;
+$red-light: #ffdce0 !default;
+$green: #569e3d !default;
+$fade: #878787!default;
+$gray: #787777 !default;
+$black: #3b3e43 !default;
+$black-text: #2c2c2c !default;
+$black-light: #616161 !default;
+$white: #ffffff !default;
+$logo-orange: #e59230 !default;
+
+@font-face {
+  font-family: HarmonyOS;
+  src: url(//resource.hellofont.cn/font/HarmonyOS_SansSC_Regular-J.woff2) format('woff2'),url(//resource.hellofont.cn/font/HarmonyOS_SansSC_Regular-J.woff) format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap
+}
+
+@font-face {
+  font-family: HarmonyOS;
+  src: url(//resource.hellofont.cn/font/HarmonyOS_SansSC_Medium-J.woff2) format('woff2'),url(//resource.hellofont.cn/font/HarmonyOS_SansSC_Medium-J.woff) format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap
+}
+
+@font-face {
+  font-family: HarmonyOS;
+  src: url(//resource.hellofont.cn/font/HarmonyOS_SansSC_Bold-J.woff2) format('woff2'),url(//resource.hellofont.cn/font/HarmonyOS_SansSC_Bold-J.woff) format('woff');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap
+}
+
+@font-face {
+  font-family: HarmonyOS;
+  src: url(//resource.hellofont.cn/font/HarmonyOS_SansSC_Black-J.woff2) format('woff2'),url(//resource.hellofont.cn/font/HarmonyOS_SansSC_Black-J.woff) format('woff');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap
+}
+
+// Fonts
+$font-family-base: "HarmonyOS", "Helvetica Neue", "Luxi Sans", "DejaVu Sans", Tahoma, "Hiragino Sans GB", "Microsoft Yahei", sans-serif !default;
+$font-family-code: mononoki, Consolas, "Liberation Mono", Menlo, Courier, monospace !default;
+
+// shadow
+$shadow-tip: 0 1px 2px rgba(0,0,0,.2) !default;
+
+// theme
+$theme-primary: $white;
+$theme-accent: $logo-orange;
+$theme-secondary: $black-light;
+$theme-info: $blue-lighter;
+$theme-warning: undefined;
+$theme-error: $red-light;
+$theme-success: $blue-light;
+$theme-primary-text: $black;
+$theme-background: #f6f6f6;

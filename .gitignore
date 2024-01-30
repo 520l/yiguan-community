@@ -1,0 +1,16 @@
+target/
+*.log
+upload/
+node_modules/
+**/.DS_store
+.idea/
+symphony.iml
+/.settings/
+/.classpath
+/.project
+.yarn/
+.vscode/
+ChatRoom.tmp
+delegated-apnic-latest.tmp
+*.lock
+.fleet/
